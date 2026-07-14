@@ -39,6 +39,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: epiphanyai-uk/app_builder
+          ref: test
           token: ${{ secrets.CHECKOUT_TOKEN }}
 
       - name: Log in to GHCR
